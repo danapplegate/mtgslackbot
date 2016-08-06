@@ -1,0 +1,15 @@
+{
+  "name": "mtgbot",
+  "version": "0.0.0",
+  "description": "Tools to view Magic The Gathering cards and decks",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Applegate",
+  "license": "BSD-2-Clause"
+}
