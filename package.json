@@ -4,7 +4,8 @@
   "description": "Tools to view Magic The Gathering cards and decks",
   "main": "index.js",
   "dependencies": {
-    "express": "~4.14.0"
+    "express": "~4.14.0",
+    "mtgsdk": "~0.1.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,4 +1,5 @@
 var express = require('express');
+const mtg = require('mtgsdk')
 var app = express();
 
 app.get('/', function(req, res) {
@@ -6,7 +7,10 @@ app.get('/', function(req, res) {
 });
 
 app.post('/', function(req, res) {
-    res.send("Hi from mtgslackbot");
+    mtg.card.find(3)
+    .then(result => {
+            res.send(result.card.name) // "Black Lotus"
+    });
 });
 
 var port = process.env.PORT || 3000;
